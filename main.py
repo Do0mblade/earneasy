@@ -297,7 +297,7 @@ async def referal_url(message: types.Message):
 
 <span class="tg-spoiler">Надеюсь на наше сотрудничество 😁</span>
 
-<b><i>/prizes</i> - призы за рефералов. 🎁🎉</b>
+<b><i>/me</i> - о нас и розыгрышах. 🎁🎉</b>
 """
         await message.answer(text, reply_markup=await add_referal(message.from_user.id))
     else:
